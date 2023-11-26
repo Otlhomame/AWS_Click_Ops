@@ -18,3 +18,4 @@ In an infrastructural configuration, an administrator may choose to make decoupl
 
 ## Common Cloud Mistakes Corrected By Proper Security Group Usage
 
+In a concise article by [corestack](https://www.corestack.io/aws-security-best-practices/aws-security-group-best-practices/), the table below indicates the best practices for using security groups everyday in the cloud configuration environment.
