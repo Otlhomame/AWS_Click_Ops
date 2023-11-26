@@ -115,4 +115,4 @@ That is how you create and delete a security group.
 
 ## Additional resources
 
-More about Security Groups
+More about [Security Groups](https://docs.aws.amazon.com/managedservices/latest/userguide/about-security-groups.html)
