@@ -1,22 +1,8 @@
 # AWS_Click_Ops
-A Collection Of Core Click-Ops Tasks On AWS
+A collection of all other documentation on AWS which is not the main branch tasks 
 
-## Main Branch Content
+## Supporting Documentation Branch Content
 
-•	**Security Groups**
+•	**Protect Your AWS Instance**
 
-•	**EC2’s & Templates**
-
-•	**EC2 Access via SSH & RDP**
-
-•	**IAM Roles**
-
-•	**VPCs**
-
-•	**Target Groups**
-
-•	**Load Balancers**
-
-•	**Internet & NAT Gateways**
-
-•	**Auto-Scaling Groups**
+•	**All Hyperlinks**
