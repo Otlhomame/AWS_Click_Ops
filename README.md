@@ -1,5 +1,5 @@
 # AWS_Click_Ops
-A Collection Of Core ClickOps Tasks On AWS
+A Collection Of Core Click-Ops Tasks On AWS
 
 ## Main Branch Content
 
