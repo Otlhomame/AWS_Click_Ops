@@ -1,8 +1,1 @@
-# AWS_Click_Ops_Extra_Documents
-A collection of all other documentation on AWS which is not the main branch tasks 
-
-## Supporting Documentation Branch Content
-
-•	**Protect Your AWS Default Resources**
-
-•	**All Hyperlinks**
+# Photos for the [sceucrity group](https://github.com/the5barbarians/AWS_Click_Ops/blob/main/Task_1_Security_Group.md) document
