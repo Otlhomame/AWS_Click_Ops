@@ -1,6 +1,6 @@
 # Create A Security Group  
 
-Written by [Otlhomame](https://github.com/Otlhomame)
+Written by [OT](https://github.com/Otlhomame)
 
 
 
@@ -19,3 +19,30 @@ In an infrastructural configuration, an administrator may choose to make decoupl
 ## Common Cloud Mistakes Corrected By Proper Security Group Usage
 
 In a concise article by [corestack](https://www.corestack.io/aws-security-best-practices/aws-security-group-best-practices/), the table below indicates the best practices for using security groups everyday in the cloud configuration environment.
+
+| Common Mistake | Issue                                  | Best Practice          |
+|-------------|-----------------------------------------|----------------------|
+| Using the AWS default security group for active resources       | New instances can adopt the group by default – potential unintentional security compromise        | Create new security groups and restrict traffic appropriately |
+| Allow all inbound access  (using 0.0.0.0/0) to some or all ports       | Enables external security attacks e.g. port scans, DoS, and brute force password attempts  | Where possible, restrict inbound access to required IP address(es) and by port, even internally |
+| Allow all outbound access (using 0.0.0.0/0) on all ports       | Enables data loss through exfiltration attacks        | Where possible, restrict outbound access to required IP address(es) and by port, even internally |
+| Creation of multiple security groups e.g. one for each EC2 instance       | Difficult to manage, maintain and audit        | Use a strategy to combine similar usage into a single security group |
+| Allow access to large subnet ranges e.g. for the whole VPC       | Enables internal security attacks e.g. packet sniffers and  OS credential dumping        | Where possible, restrict to single IPs / small subnet ranges and preferably other AWS security groups |
+| No Security Group strategy used       | Difficult to manage, maintain and audit        | Develop and enforce a Security Group strategy |
+| Security groups are not monitored and / or managed       | No alerting of suspicious activity or unintentional security risks        | Develop and enforce a Security Group monitoring solution |
+
+
+
+
+## :information_source: Pre-requisites
+
+- [x]  Have a free tier AWS Account at: aws.amazon.com
+- [x]  Login to AWS account and get started on step 1 below
+
+
+## Steps To Create a Security Group
+
+### 1 - Search for “Security Groups” in the main navigation bar at the top:<br>
+
+<img src="https://raw.githubusercontent.com/mindmotivate/multicloudclass/gh-pages-vpc/fullcreatevpcscreen.png" width="100%" height="100%"><br>
+
+### 2 - Click on “Create Security Group” as indicated: <br>
