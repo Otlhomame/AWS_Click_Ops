@@ -43,6 +43,76 @@ In a concise article by [corestack](https://www.corestack.io/aws-security-best-p
 
 ### 1 - Search for “Security Groups” in the main navigation bar at the top:<br>
 
-<img src="https://raw.githubusercontent.com/mindmotivate/multicloudclass/gh-pages-vpc/fullcreatevpcscreen.png" width="100%" height="100%"><br>
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/1.png" width="100%" height="100%"><br>
 
 ### 2 - Click on “Create Security Group” as indicated: <br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/2.png" width="100%" height="100%"><br>
+
+### 3 - Name your Security group by name “MyFirstSecurityGroup”. In this case, it serves to be used for the default VPC called “Do Not Touch”:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/3.png" width="100%" height="100%"><br>
+
+### 4 - Click “Add Rule” to begin editing Inbound rules to specify what kind of connection can be made to the security group:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/4.png" width="100%" height="100%"><br>
+
+### 5 - Set the details as shown with a description which indicates “SSH from Home”:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/5.png" width="100%" height="100%"><br>
+
+### 6 - Click “Add Rule” again to create another inbound rule with a description of “HTTP from Home”:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/6.png" width="100%" height="100%"><br>
+
+### 7 - Once complete, both inbound should have the same source of “Anywhere-IP-v4” and look like this:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/7.png" width="100%" height="100%"><br>
+
+### 8 - DO NOT touch the Outbound rules in any way. Leave them as they are:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/8.png" width="100%" height="100%"><br>
+
+### 9 - Click on “Add new tag” to create a label for your Security Group:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/9.png" width="100%" height="100%"><br>
+
+### 10 - Set your Key and Value and then click “Create security group”:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/10.png" width="100%" height="100%"><br>
+
+### 11 - Congratulations. You have successfully created your security group. You can scroll down to see the inbound rules and also click on tags to see what you created earlier.
+
+To confirm that you have created one, click on the red boxed test to navigate to the “Security groups” page:
+<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/11.png" width="100%" height="100%"><br>
+
+### 12 - As shown, the security group called “MyFirstSecurityGroup” has been created:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/12.png" width="100%" height="100%"><br>
+
+## Tear down or delete your Security Group
+
+### 13 - To delete your security group, select the checkbox as shown, click on “Actions” and the click on “Delete security groups”:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/13.png" width="100%" height="100%"><br>
+
+### 14 - On Popup window, confirm that you’re not deleting the default security group and then click on “delete”:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/14.png" width="100%" height="100%"><br>
+
+### 15 - Once the green bar appears in confirming that your security group was deleted, click on the refresh button to confirm once more that “MyFirstSecurityGroup” has been deleted and is no longer visible:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/15.png" width="100%" height="100%"><br>
+
+### 16 - As can be seen below, the only security group resource remaining is our default which we DO NOT delete:<br>
+
+<img src="https://github.com/the5barbarians/AWS_Click_Ops/blob/security_group_supporting_docs/16.png" width="100%" height="100%"><br>
+
+<br>
+That is how you create and delete a security group.
+
+## Additional resources
+
+More about Security Groups
