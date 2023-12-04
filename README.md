@@ -11,14 +11,6 @@ BEFORE following any tasks, take [these](https://github.com/the5barbarians/AWS_C
 
 •	**EC2 Access via SSH & RDP**
 
-•	**IAM Roles**
-
 •	**VPCs**
-
-•	**Target Groups**
-
-•	**Load Balancers**
-
-•	**Internet & NAT Gateways**
 
 •	**Auto-Scaling Groups**
